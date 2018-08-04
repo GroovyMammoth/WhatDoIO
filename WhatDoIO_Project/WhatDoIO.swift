@@ -12,35 +12,33 @@ class WhatDoIO {
     var member_cost_dictionary = [String: Double]()
     var members = [String]()
     var pay_matrix = [String : [String : Double]]()
+    var partition = [String: Double]()
     //var pay_matrix: Matrix<Any>
-    var sorted = false
     var compiled = false
     
-    init(member_cost_dictionary: [String: Double]) {
+    init(member_cost_dictionary: [String: Double], partition : [String: Double]) {
         self.member_cost_dictionary = member_cost_dictionary
         self.members = Array(member_cost_dictionary.keys)
         self.pay_matrix = [String : [String : Double]]()
-        self.sorted = false
+        self.partition = partition
         self.compiled = false
     }
     
     func split_evenly(){
-        var total: Double = 0.00
+        var total = 0.00
         for cost in member_cost_dictionary.values{
-            total += cost
+           total += cost
         }
-        let size = member_cost_dictionary.count
-        let owes_per_person: Double = total/Double(size)
+        let owes_per_person = total/Double(member_cost_dictionary.count)
         for member in members{
-            member_cost_dictionary[member]! -= owes_per_person
-            member_cost_dictionary[member]! *= (-1)
+            partition[member] = owes_per_person
         }
-        sorted = true
     }
     
     func compile(){
-        if !sorted{
-            split_evenly()
+        for member in members{
+            member_cost_dictionary[member]! = member_cost_dictionary[member]! - partition[member]!
+            member_cost_dictionary[member]! = member_cost_dictionary[member]!*(-1)
         }
         var pool = 0.00
         for member in members{
