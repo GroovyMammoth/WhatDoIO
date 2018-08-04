@@ -8,6 +8,7 @@
 
 import Foundation
 
+//algorithm for figuring out what people owe
 class WhatDoIO {
     var member_cost_dictionary = [String: Double]()
     var members = [String]()
