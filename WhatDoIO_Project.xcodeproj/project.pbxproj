@@ -15,7 +15,6 @@
 		A2083C2C2115079100C40F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2083C242115079000C40F90 /* Main.storyboard */; };
 		A2083C2D2115079100C40F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2083C262115079000C40F90 /* ViewController.swift */; };
 		A2083C3121154C1600C40F90 /* WhatDoIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2083C3021154C1600C40F90 /* WhatDoIO.swift */; };
-		A2F84BB22116599100F92B81 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F84BB12116599100F92B81 /* CalcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		A2083C252115079000C40F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/Insert-Delete Rows/YouTube Example/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		A2083C262115079000C40F90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/Insert-Delete Rows/YouTube Example/ViewController.swift"; sourceTree = "<group>"; };
 		A2083C3021154C1600C40F90 /* WhatDoIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoIO.swift; sourceTree = "<group>"; };
-		A2F84BB12116599100F92B81 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				A2083C3021154C1600C40F90 /* WhatDoIO.swift */,
 				A2083C212115079000C40F90 /* VideoCell.swift */,
 				A2083C262115079000C40F90 /* ViewController.swift */,
-				A2F84BB12116599100F92B81 /* CalcViewController.swift */,
 				A2083C202115079000C40F90 /* YTButtons.swift */,
 				A2083C172115076800C40F90 /* Info.plist */,
 				A2083C1D2115078F00C40F90 /* WhatDoIO_Project-Bridging-Header.h */,
@@ -152,7 +149,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2083C292115079100C40F90 /* YTButtons.swift in Sources */,
-				A2F84BB22116599100F92B81 /* CalcViewController.swift in Sources */,
 				A2083C272115079100C40F90 /* AppDelegate.swift in Sources */,
 				A2083C2D2115079100C40F90 /* ViewController.swift in Sources */,
 				A2083C2A2115079100C40F90 /* VideoCell.swift in Sources */,
