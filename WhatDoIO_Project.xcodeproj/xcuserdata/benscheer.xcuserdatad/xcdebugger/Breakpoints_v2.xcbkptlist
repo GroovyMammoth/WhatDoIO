@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Downloads/Insert-Delete Rows/YouTube Example/VideoCell.swift"
-            timestampString = "555304552.918707"
+            timestampString = "555308660.96158"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "VideoCell"
             landmarkType = "3">
          </BreakpointContent>
