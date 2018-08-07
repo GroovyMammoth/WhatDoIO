@@ -88,7 +88,9 @@ class WhatDoIO {
         for memberInDebt in members {
             if pay_matrix[memberInDebt]?.count != 0{
                 for member in pay_matrix[memberInDebt]!.keys {
-                    output = "\(output) \(memberInDebt) should pay \(member) $\(String(describing: pay_matrix[memberInDebt]![member]!)). "
+                    if String(describing: pay_matrix[memberInDebt]![member]!) != "0.0" {
+                        output = "\(output) \(memberInDebt) should pay \(member) $\(String(describing: pay_matrix[memberInDebt]![member]!)). "
+                    }
                 }
             }
         }
