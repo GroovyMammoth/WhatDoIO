@@ -15,6 +15,7 @@
 		A2083C2C2115079100C40F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2083C242115079000C40F90 /* Main.storyboard */; };
 		A2083C2D2115079100C40F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2083C262115079000C40F90 /* ViewController.swift */; };
 		A2083C3121154C1600C40F90 /* WhatDoIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2083C3021154C1600C40F90 /* WhatDoIO.swift */; };
+		A2529A8621193F0300EE6CE4 /* completion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A2529A8521193F0300EE6CE4 /* completion.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,10 @@
 		A2083C252115079000C40F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Downloads/Insert-Delete Rows/YouTube Example/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		A2083C262115079000C40F90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/Insert-Delete Rows/YouTube Example/ViewController.swift"; sourceTree = "<group>"; };
 		A2083C3021154C1600C40F90 /* WhatDoIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDoIO.swift; sourceTree = "<group>"; };
+		A2529A8221193B1E00EE6CE4 /* completion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = completion.m4a; path = "../../Music/iTunes/iTunes Media/Music/Ben Scheer/Unknown Album/completion.m4a"; sourceTree = SOURCE_ROOT; };
+		A2529A8321193CFF00EE6CE4 /* completion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = completion.m4a; sourceTree = "<group>"; };
+		A2529A8421193E3F00EE6CE4 /* completion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = completion.m4a; sourceTree = "<group>"; };
+		A2529A8521193F0300EE6CE4 /* completion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = completion.m4a; path = "../../Music/iTunes/iTunes Media/Music/Ben Scheer/Unknown Album/completion.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,8 @@
 		A2083BFF2115076800C40F90 = {
 			isa = PBXGroup;
 			children = (
+				A2529A8421193E3F00EE6CE4 /* completion.m4a */,
+				A2529A8521193F0300EE6CE4 /* completion.m4a */,
 				A2083C0A2115076800C40F90 /* WhatDoIO_Project */,
 				A2083C092115076800C40F90 /* Products */,
 			);
@@ -63,10 +70,12 @@
 			children = (
 				A2083C1E2115079000C40F90 /* AppDelegate.swift */,
 				A2083C1F2115079000C40F90 /* Assets.xcassets */,
+				A2529A8321193CFF00EE6CE4 /* completion.m4a */,
 				A2083C222115079000C40F90 /* LaunchScreen.storyboard */,
 				A2083C242115079000C40F90 /* Main.storyboard */,
 				A2083C3021154C1600C40F90 /* WhatDoIO.swift */,
 				A2083C212115079000C40F90 /* VideoCell.swift */,
+				A2529A8221193B1E00EE6CE4 /* completion.m4a */,
 				A2083C262115079000C40F90 /* ViewController.swift */,
 				A2083C202115079000C40F90 /* YTButtons.swift */,
 				A2083C172115076800C40F90 /* Info.plist */,
@@ -138,6 +147,7 @@
 				A2083C2C2115079100C40F90 /* Main.storyboard in Resources */,
 				A2083C282115079100C40F90 /* Assets.xcassets in Resources */,
 				A2083C2B2115079100C40F90 /* LaunchScreen.storyboard in Resources */,
+				A2529A8621193F0300EE6CE4 /* completion.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
