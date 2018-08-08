@@ -89,7 +89,10 @@ class WhatDoIO {
             if pay_matrix[memberInDebt]?.count != 0{
                 for member in pay_matrix[memberInDebt]!.keys {
                     if String(describing: pay_matrix[memberInDebt]![member]!) != "0.0" {
-                        output = "\(output) \(memberInDebt) should pay \(member) $\(String(describing: pay_matrix[memberInDebt]![member]!)). "
+                        
+                        let amount = String(format: "$%.02f", pay_matrix[memberInDebt]![member]!)
+                        output = "\(output) \(memberInDebt) should pay \(member) \(amount). "
+//                        output = "\(output) \(memberInDebt) should pay \(member) $\(String(describing: pay_matrix[memberInDebt]![member]!)). "
                     }
                 }
             }
