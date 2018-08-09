@@ -16,6 +16,7 @@
 		A2083C2D2115079100C40F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2083C262115079000C40F90 /* ViewController.swift */; };
 		A2083C3121154C1600C40F90 /* WhatDoIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2083C3021154C1600C40F90 /* WhatDoIO.swift */; };
 		A2529A8621193F0300EE6CE4 /* completion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A2529A8521193F0300EE6CE4 /* completion.m4a */; };
+		A2631484211BF345000D4BF1 /* SplitEvenVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2631483211BF345000D4BF1 /* SplitEvenVariable.swift */; };
 		A27B20EE21194FE000B4CF41 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B20ED21194FE000B4CF41 /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		A2529A8221193B1E00EE6CE4 /* completion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = completion.m4a; path = "../../Music/iTunes/iTunes Media/Music/Ben Scheer/Unknown Album/completion.m4a"; sourceTree = SOURCE_ROOT; };
 		A2529A8321193CFF00EE6CE4 /* completion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = completion.m4a; sourceTree = "<group>"; };
 		A2529A8521193F0300EE6CE4 /* completion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = completion.m4a; path = "../../Music/iTunes/iTunes Media/Music/Ben Scheer/Unknown Album/completion.m4a"; sourceTree = "<group>"; };
+		A2631483211BF345000D4BF1 /* SplitEvenVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitEvenVariable.swift; sourceTree = "<group>"; };
 		A27B20ED21194FE000B4CF41 /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrencyTextField.swift; path = "../../../Downloads/CurrencyTextField-master/CurrencyTextField/CurrencyTextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				A2083C212115079000C40F90 /* VideoCell.swift */,
 				A2529A8221193B1E00EE6CE4 /* completion.m4a */,
 				A2083C262115079000C40F90 /* ViewController.swift */,
+				A2631483211BF345000D4BF1 /* SplitEvenVariable.swift */,
 				A2083C202115079000C40F90 /* YTButtons.swift */,
 				A2083C172115076800C40F90 /* Info.plist */,
 				A2083C1D2115078F00C40F90 /* WhatDoIO_Project-Bridging-Header.h */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27B20EE21194FE000B4CF41 /* CurrencyTextField.swift in Sources */,
+				A2631484211BF345000D4BF1 /* SplitEvenVariable.swift in Sources */,
 				A2083C292115079100C40F90 /* YTButtons.swift in Sources */,
 				A2083C272115079100C40F90 /* AppDelegate.swift in Sources */,
 				A2083C2D2115079100C40F90 /* ViewController.swift in Sources */,
@@ -312,7 +316,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "WhatDoIO_Project/WhatDoIO_Project-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,7 +334,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WhatDoIO_Project/WhatDoIO_Project-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

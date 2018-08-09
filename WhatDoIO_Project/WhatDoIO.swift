@@ -2,8 +2,8 @@
 //  WhatDoIO.swift
 //  WhatDoIO_Project
 //
-//  Created by Ben Scheer on 8/3/18.
-//  Copyright © 2018 Benjamin Scheer. All rights reserved.
+//  Created by Ben Scheer and Fidel R. on 8/3/18.
+//  Copyright © 2018 Ben Scheer. All rights reserved.
 //
 
 import Foundation
@@ -88,11 +88,11 @@ class WhatDoIO {
         for memberInDebt in members {
             if pay_matrix[memberInDebt]?.count != 0{
                 for member in pay_matrix[memberInDebt]!.keys {
-                    if String(describing: pay_matrix[memberInDebt]![member]!) != "0.0" {
-                        
-                        let amount = String(format: "$%.02f", pay_matrix[memberInDebt]![member]!)
-                        output = "\(output) \(memberInDebt) should pay \(member) \(amount). "
-//                        output = "\(output) \(memberInDebt) should pay \(member) $\(String(describing: pay_matrix[memberInDebt]![member]!)). "
+                    let numberFromMatrix: Double = pay_matrix[memberInDebt]![member]!
+                    let number: Double = Darwin.round(100.0 * numberFromMatrix)/100.0
+                    if number != 0.00 {
+                        let amount = String(format: "$%.02f", number)
+                        output = "\(output) \(memberInDebt) should pay \(member) \(amount)."
                     }
                 }
             }
